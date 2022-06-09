@@ -3,10 +3,10 @@ import { Disclosure } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
 
 const navigation = [
-    { name: 'Dashboard', href: '/', id: '01. ' },
-    { name: 'Team', href: '/', id: '02. ' },
-    { name: 'Projects', href: '/', id: '03. ' },
-    { name: 'Calendar', href: '/', id: '04. ' },
+    { name: 'About', href: '#about', id: '01. ' },
+    { name: 'Skills', href: '#skills', id: '02. ' },
+    { name: 'Projects', href: '#projects', id: '03. ' },
+    { name: 'Contact', href: '#contact', id: '04. ' },
 ]
 
 function classNames(...classes) {
@@ -15,7 +15,7 @@ function classNames(...classes) {
 
 export default function Example() {
     return (
-        <Disclosure as="nav" className="bg-slate-900 ">
+        <Disclosure as="nav" className="bg-slate-900 pt-6 pb-10">
             {({ open }) => (
                 <>
                     <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
