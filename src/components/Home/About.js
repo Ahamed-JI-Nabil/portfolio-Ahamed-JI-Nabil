@@ -5,8 +5,8 @@ const About = () => {
     return (
         <div className='lg:pb-32' id='about'>
             <div className="relative flex py-5 items-center">
-                <h2 className="text-2xl mr-4 font-mono">0.1 <span className=' text-teal-200'>About Me</span> </h2>
-                <div className="w-48 border-t border-gray-400"></div>
+                <h2 className="lg:text-2xl text-xl lg:mr-4 font-mono">0.1 <span className=' text-teal-200 mr-2'>About Me</span> </h2>
+                <div className="lg:w-48 w-28 border-t border-gray-400"></div>
             </div>
             <div className='lg:flex lg:flex-row-reverse items-center justify-evenly  w-full' >
                 <img className='w-96 my-16 lg:my-0' src={me} alt="AhamedJINabil" />
