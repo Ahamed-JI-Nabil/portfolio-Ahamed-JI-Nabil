@@ -1,5 +1,6 @@
 import React from 'react';
 import me from '../../images/me.png'
+import Typewriter from 'typewriter-effect';
 
 const About = () => {
     return (
@@ -10,8 +11,22 @@ const About = () => {
             </div>
             <div className='lg:flex lg:flex-row-reverse items-center justify-evenly  w-full' >
                 <img className='w-96 my-16 lg:my-0' src={me} alt="AhamedJINabil" />
-                <p className='max-w-md text-teal-200 pb-20 lg:pb-0'>
-                    Hello! I'm Ahamed Johayir Iqbal (Nabil), a junior web developer. I develop web applications. My core skill is based on JavaScript and I love to do most of the things using JavaScript. I love to make the web more open to the world. I'm studying bachelor degree in Computer Science Engineering at Sounteast University. I am available for any kind of job opportunity that suits my interests.
+                <p className='max-w-md lg:max-w-md text-teal-200 pb-20 lg:pb-0'>
+                    <Typewriter
+                        onInit={(typewriter) => {
+                            typewriter.typeString(`Hello! I'm Ahamed Johayir Iqbal (Nabil), a junior web developer. I develop web applications. My core skill is based on JavaScript and I love to do most of the things using JavaScript. I love to make the web more open to the world. I'm studying bachelor degree in Computer Science Engineering at Sounteast University. I am available for any kind of job opportunity that suits my interests.`)
+                                .pauseFor(120000)
+                                .deleteAll()
+                                .start()
+
+                        }}
+                        options={{
+                            autoStart: true,
+                            loop: true,
+                            delay: 5,
+                        }}
+                    ></Typewriter>
+
                 </p>
             </div>
         </div>

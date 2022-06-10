@@ -26,8 +26,8 @@ const Intro = () => {
                 ></Typewriter>
             </h2>
             <p className='lg:text-2xl font-bold font-mono mt-4 '>Junior Web Developer</p>
-            <a href="https://drive.google.com/file/d/1R6Q30V9WdNs8UF6ydtGzBwtd_rWI8q7K/view?usp=drivesdk"><button className="btn my-4 hover:translate-x-2 hover:text-teal-200">Get Resume</button></a>
-            <a href="#about"><button className="btn my-4 hover:translate-x-2 hover:text-teal-200 ml-4">About Me</button></a>
+            <a href="https://drive.google.com/file/d/1R6Q30V9WdNs8UF6ydtGzBwtd_rWI8q7K/view?usp=drivesdk"><button className="btn my-4 hover:text-teal-200 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 mr-2">Get Resume</button></a>
+            <a href="#about"><button className="btn my-4 hover:text-teal-200 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 ml-2">About Me</button></a>
         </div >
     );
 };
