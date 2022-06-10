@@ -2,6 +2,7 @@ import React from 'react';
 import About from './About';
 import Contact from './Contact';
 import Intro from './Intro';
+import Projects from './Projects';
 import Skills from './Skills';
 
 const Home = () => {
@@ -10,6 +11,7 @@ const Home = () => {
             <Intro></Intro>
             <About></About>
             <Skills></Skills>
+            <Projects></Projects>
             <Contact></Contact>
         </div>
     );
