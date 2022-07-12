@@ -4,7 +4,7 @@ import Typewriter from 'typewriter-effect';
 const Intro = () => {
 
     return (
-        <div className='lg:mt-20 mt-12 lg:pb-40 pb-36'>
+        <div className='lg:mt-20 mt-12 lg:pb-40 pb-36 static'>
             <p className='text-base font-mono mb-2'>Hi, my name is</p>
             <h2 className="lg:text-7xl text-4xl font-serif text-teal-200 italic py-4">
                 <Typewriter

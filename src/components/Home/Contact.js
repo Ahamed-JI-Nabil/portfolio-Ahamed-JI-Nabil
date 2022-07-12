@@ -2,8 +2,8 @@ import React from 'react';
 
 const Contact = () => {
     return (
-        <div>
-            <div className="relative flex py-5 items-center justify-center mb-6 text-teal-200 text-center">
+        <div className='static'>
+            <div className="flex py-5 items-center justify-center mb-6 text-teal-200 text-center">
                 <div className="w-48 border-t border-gray-400 mr-4"></div>
                 <h2 className="text-2xl mr-4 font-mono">What's Next?</h2>
                 <div className="w-48 border-t border-gray-400"></div>
